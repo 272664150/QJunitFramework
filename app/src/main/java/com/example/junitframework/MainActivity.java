@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViews() {
         mProgressBar = findViewById(R.id.progress);
-        mStartBtn = findViewById(R.id.test_policy);
+        mStartBtn = findViewById(R.id.btn_start);
         mStartBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
